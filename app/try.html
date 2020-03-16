@@ -1,0 +1,25 @@
+<html>
+  <head>
+    
+    <script type="text/javascript" src="Novotel.json"></script>
+  </head>
+  <body>
+    <div class="container">
+      <table id="my_table" class="table">
+      </table>
+    </div>
+    <input type="name">
+    <a href="/your_flask_function"><input type="button",value="call_flask_function"></a>
+  </body>
+  <script>
+    var local_data = data;
+    var row_data = '';
+    for (var i = 0; i < local_data.length; i++) {
+      document.write('Hotel Name: '+local_data[i].name + '<br>');
+      document.write('Rating: '+local_data[i].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[i].aggregateRating.reviewCount);
+
+    }
+    
+  </script>
+</html>

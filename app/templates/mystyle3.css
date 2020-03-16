@@ -1,0 +1,111 @@
+body{
+	margin-right: 50px;
+	}
+h1{color: white}
+	.class1{
+	font-size: 50pt;
+	font-family:"Bradley Hand";
+	color: black;
+	text-align: center;
+	}
+.class4{
+	color: white;
+	font-size: 40pt;
+	margin-bottom: 20pt;
+}
+.class2{
+	font-family: arial;
+	text-align: justify;
+	font-size: 25;
+	}
+.class3{
+		color: red;
+		font-size: 40pt;
+	}
+.class4{
+		padding-left: 40px
+	}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 400;
+  background-color: black;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 22px;
+}
+
+.row {margin: 0 0 0 20px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 4px 8px;
+}
+nav{
+	width: 103%;
+	height: 100px;
+	background-color: black;
+
+}
+nav p{
+	font-size: 35;
+	line-height: 15px;
+	float: left;
+	font-family: Bradley Hand;
+	padding-left: 20px
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	color: white;
+
+}
+nav ul li a{
+	display: block;
+	font-family: Bradley Hand;
+	font-size: 30px;
+	padding: 6px 42px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: black;
+	padding: 0 45px 5px 15px;
+	border-radius: 8px 8px 8px 8px;
+}
+nav ul li:hover ul{
+	display: block;
+
+}
+nav ul li ul li a {
+	padding: 8px 14px;
+	color: white;
+
+}
+nav ul li ul li a:hover {
+	background-color: #7b7b7b;
+
+
+}

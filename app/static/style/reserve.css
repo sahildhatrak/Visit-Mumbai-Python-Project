@@ -1,0 +1,160 @@
+body{
+	margin: 20pt 0pt ;
+	background-image: url(img/reserve3.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 1300pt 1000px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 25pt;
+
+        }
+h1{color: black;
+	font-size: 30pt;
+	font-family: "Bradley Hand";
+
+
+
+	}
+h2{color: black;
+	font-size: 20pt;
+	font-family: "Bradley Hand";
+
+	
+	}
+h3{font-size: 30pt;
+margin:0;
+color: white;
+font-family: "Bradley Hand";}
+h4{
+	color: white;
+	font-family: "Bradley Hand";
+	font-size: 20pt;
+}
+.class1{
+	font-size: 36pt;
+	font-family:"Bradley Hand";
+	color: black;
+}
+.class2{
+	font-size: 66pt;
+	font-family:"Bradley Hand";
+	color: white;
+}
+
+.class3{
+	font-size: 52pt;
+	font-family:"Bradley Hand";
+	color: black;
+	margin-left: 100pt;
+	margin-bottom: 0;
+
+}
+
+
+.thane{
+	font-size: 66pt;
+	font-family:"Bradley Hand";
+	color: white;
+	margin-left: 535pt;
+}
+.food1{
+	width: 120pt;
+
+}
+.card {
+  transition: 1.3s;
+  height: 363.5;
+  width: 200pt;
+  color: ;
+  background-color: #DEDDD3;
+  padding-left: 10pt;
+}
+.uli{
+	float:left;
+	font-size:25pt;
+	
+}
+
+	
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 0px;
+}
+.card2 {
+	padding-left: 30pt;
+	width: 500pt;
+
+
+}
+card3 {
+	padding-left: 30pt;
+	width: 200pt;
+	height: 100pt;
+	background-color: #EDECE1;
+
+}
+.row {margin: 0 0 0 0;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 4px 8px;
+}
+nav{
+	width: 104%;
+	height: 100px;
+	background-color: transparent;
+
+}
+nav ul{
+	float: right;
+	padding-right: 40pt;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	color: white;
+
+}
+nav ul li a{
+	display: block;
+	font-family: Bradley Hand;
+	font-size: 30px;
+	padding: 5px 32px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: black;
+	padding: 10px;
+	border-radius: 8px 8px 8px 8px;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li ul li a {
+	padding: 8px 12px;
+	color: white;
+
+}
+nav ul li ul li a:hover {
+	background-color: #7b7b7b;
+
+
+}

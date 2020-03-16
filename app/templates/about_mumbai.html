@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>
+		About Mumbai
+	</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/about.css')}}">
+	
+</head>
+<body>
+<nav>
+	<p class="class3"> VISIT </p>
+	<p class="class5">Mumbai</p>
+	<ul>
+		<li><a href="{{ url_for('mumbai') }}">Home</a></li>
+		<li><a href='#'>Things To Do</a>
+		<ul>
+
+				<li><a href="{{ url_for('food') }}">Food & Drink</a></li>
+				<li><a href="{{ url_for('picnic') }}">Picnic</a></li>
+				<li><a href="{{ url_for('shopping') }}">Shopping</a></li>
+				
+</ul>
+</li>
+		<li><a href='#'>Destination</a>
+			<ul>
+				<li><a href="{{ url_for('colaba') }}">Colaba</a></li>
+        <li><a href="{{ url_for('navi') }}">Navi Mumbai</a></li>
+        <li><a href="{{ url_for('bandra') }}">Bandra</a></li>
+        <li><a href="{{ url_for('thane') }}">Thane</a></li>
+        <li><a href="{{ url_for('powai') }}">Powai</a></li>
+			</ul>
+		</li>
+		<li><a href='#'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			<ul>
+				<li><a href="{{ url_for('about_mumbai') }}">About Mumbai</a></li>
+				<li><a href="{{ url_for('history') }}">History</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+<br>
+<br>
+<br>
+<h1 class="class1">About Mumbai</h1>
+<h2 align="center"> Mumbai is not a city, it's a way of life. It's the city of dreams.</h2>
+<br>
+<img src="../static/style/img/about_mumbai1.jpeg" width="700" height="400" class="class4">
+<img src="../static/style/img/about_mumbai4.jpeg" width="700" height="400" align="right">
+<br>
+<br>
+<div class="row">
+	<div class="column">
+<div class="card">
+  <p>Mumbai is a spectacular paradox of chaos and hope, glamor and squalor, modernity and tradition, old and new. Famously known as the City of Dreams, Mumbai - formerly known as Bombay - has a long colonial history, starting from Gandhi's visits to the city to the intense protests against the Simon Commission in 1928, the city has stood witness to many important events in the country's freedom struggle. Today, Mumbai is a beautifully blended melting pot of cultures and lifestyles. The city soaks in everything into its fabric, making it its very own. From European and Portuguese inhabitants who migrated years ago to the city, to upcoming actors struggling to make it big on the silver screen; from Bolly superstars to big industrialists to tribes of fisherman and slum dwellers, Mumbai is a city that proudly boasts of stories from different walks of human survival.<br><br>
+One of the main centres in the country of art, culture, music, dance and theatre, Mumbai is a dynamic, cosmopolitan city that has been running for years solely on the indomitable spirit of the Mumbaikars.<br><br>
+
+If you want to soak in some of the city's reminiscent colonial feeling, start by taking a walk around the streets of South Mumbai, which is basically old Bombay. South Mumbai is dotted with buildings that will make you feel like you've been transported back in time to the British era; the British influence on the architecture of buildings is very prominent in almost every building you come across.<br><br>
+
+The most iconic tourist spot in Mumbai has to be the Gateway of India, and this awe-inspiring structure is located right on the waterfront overlooking the Arabian Sea. The majestic Taj Mahal Hotel, which is another famous Mumbai landmark, is directly opposite the Gateway of India, so you can spend an entire day at these two locations alone, immersing yourself in the marvellous history of this town replete in rich heritage.<br><br>
+
+Since Mumbai is situated right beside the Arabian Sea, there are various promenades where you just sit back and relax and feel the breeze on your face. Marine Drive is one such promenade where you can sit with your feet dangling over the ledge, and enjoy a beautiful sunset against the backdrop of the roaring waves of the Arabian sea. When in Mumbai, don't forget to visit Bandra, which is home to most of the Bollywood stars, and is a laid-back suburb which houses many bars and nightclubs where you can experience the best of Mumbai's nightlife.<br><br>
+
+Mumbai's local cuisine is a food lover's paradise, and the local street food comprising of items such as vada pav, pav bhaji, dahi puri, pani puri and kala khatta will pamper your taste buds without burning a hole in your pocket. Being a metropolis, Mumbai is a shopping haven, and there is pretty much nothing that you won't be able to find here. Street shopping in Mumbai is best experienced at Colaba Causeway and Linking Road, where you can buy everything from junk jewellery to shoes, bags and even fancy designer clothes.</p>
+  </div>
+</div>
+</div>
+<!-- <footer class="site-footer">
+	<div id="footer-content">
+		<p> Copyright 2019 @ visitmumbai.com - All Rights Reserved </p>
+	</div>
+</footer> -->
+
+</body>

@@ -1,0 +1,96 @@
+<html>
+<head>
+	<title>Reservation</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style/reserve.css') }}">
+	<style type="text/css">
+		
+		body{
+			
+		}
+		#B {
+			
+			height: 250pt;
+			margin-top: 50pt;
+			margin-left: 290pt;
+			margin-right: 150pt;
+			
+		}
+
+		
+	</style>
+</head>
+<body>
+<section id="A">
+<nav>
+	
+<ul>
+		<li><a href="{{ url_for('mumbai') }}">Home</a></li>
+		<li><a href='#'>Things To Do</a>
+		<ul>
+
+				<li><a href="{{ url_for('food') }}">Food & Drink</a></li>
+				<li><a href="{{ url_for('picnic') }}">Picnic</a></li>
+				<li><a href="{{ url_for('shopping') }}">Shopping</a></li>
+				
+</ul>
+</li>
+		<li><a href='#'>Destination</a>
+			<ul>
+				<li><a href="{{ url_for('colaba') }}">Colaba</a></li>
+        <li><a href="{{ url_for('navi') }}">Navi Mumbai</a></li>
+        <li><a href="{{ url_for('bandra') }}">Bandra</a></li>
+        <li><a href="{{ url_for('thane') }}">Thane</a></li>
+        <li><a href="{{ url_for('powai') }}">Powai</a></li>
+			</ul>
+		</li>
+		<li><a href='#'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			<ul>
+				<li><a href="{{ url_for('about_mumbai') }}">About Mumbai</a></li>
+				<li><a href="{{ url_for('history') }}">History</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<br><br><br><br><br><br><br>
+</section>
+<section id="B">
+<div class="row">
+<div class="column">
+	<div class="card">
+		{% block content %}
+    <h1 align="center">Enter Details</h1>
+    <form action="" method="post" novalidate>
+    	{{ form.hidden_tag() }}
+        <p>
+        	<h2>{{ form.name.label }} </h2>
+    		<h2>{{ form.name(size=32) }} </h2>
+    		<h2>{{ form.email.label }} </h2>
+    		<h2>{{ form.email(size=32) }} </h2>
+        </p>
+        <p>
+        	<h2>{{ form.submit() }}</h2>
+
+        </p>
+    </form>
+{% endblock %}
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+	</div>
+</div>
+
+<div class="column">
+	<div class="card2">
+		<br>
+		<h1 class="class3">MAKE YOUR<br>RESERVATION</h1>
+	</div>
+</div>
+</div>
+</section>

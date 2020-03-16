@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="{{ url_for('static',filename='style/thane.json')}}"></script>
+	<title>Thane
+	</title>
+	<style type="text/css">
+		
+		body{
+			background-image: url('thane.jpg');
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: 1300pt 800px;
+		}
+
+		
+	</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/thane.css')}}">
+</head>
+<body>
+<nav>
+	
+<ul>
+    <li><a href="{{ url_for('mumbai') }}">Home</a></li>
+    <li><a href='#'>Things To Do</a>
+    <ul>
+
+        <li><a href='#'>Exhibitions</a></li>
+        <li><a href="{{ url_for('food') }}">Food & Drink</a></li>
+        <li><a href="{{ url_for('picnic') }}">Picnic</a></li>
+        <li><a href="{{ url_for('shopping') }}">Shopping</a></li>
+        
+</ul>
+</li>
+    <li><a href='#'>Destination</a>
+      <ul>
+        <li><a href="{{ url_for('colaba') }}">Colaba</a></li>
+        <li><a href="{{ url_for('navi') }}">Navi Mumbai</a></li>
+        <li><a href="{{ url_for('bandra') }}">Bandra</a></li>
+        <li><a href="{{ url_for('thane') }}">Thane</a></li>
+        <li><a href="{{ url_for('powai') }}">Powai</a></li>
+      </ul>
+    </li>
+    <li><a href='#'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <ul>
+        <li><a href="{{ url_for('about_mumbai') }}">About Mumbai</a></li>
+        <li><a href="{{ url_for('history') }}">History</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h1 class="thane">Thane</h1>
+<br><br><br><br>
+
+
+<h1 align="center" class="class1">Places to Stay</h1>
+<!-- <br>
+ --><div class="row">
+	<div class="column">
+<div class="card">
+  <img id='a'>
+  
+
+ <script>
+    var local_data = data;
+    
+    var img = document.getElementById("a");
+    img.src= local_data[0].image;
+  </script>
+  <div class="container">
+    <h2 align="center"><b></b></h2> 
+    <p>
+    	<script>
+    var local_data = data;
+    var row_data = '';
+      document.write('<h2><center>'+local_data[0].name + '<br></h2></center>');
+      document.write('Rating: '+local_data[0].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[0].aggregateRating.reviewCount);
+
+    
+    
+  </script>
+  <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    <a href="/login" style="color:white"><center>Reserve Booking!</center></a>
+    </p> 
+  </div>
+</div>
+</div>
+<div class="column">
+	<div class="card">
+  <img id='b'>
+  
+
+ <script>
+    var local_data = data;
+    
+    var img = document.getElementById("b");
+    img.src= local_data[1].image;
+  </script>
+  <div class="container">
+    <h2 align="center"><b></b></h2> 
+    <p>
+      <script>
+    var local_data = data;
+    var row_data = '';
+      document.write('<h2><center>'+local_data[1].name + '<br></h2></center>');
+      document.write('Rating: '+local_data[1].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[1].aggregateRating.reviewCount);
+
+    
+    
+  </script>
+  <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    <a href="/login" style="color:white"><center>Reserve Booking!</center></a>
+    </p> 
+  </div>
+</div>
+</div>
+<div class="column">
+	<div class="card">
+  <img id='c'>
+  
+
+ <script>
+    var local_data = data;
+    
+    var img = document.getElementById("c");
+    img.src= local_data[2].image;
+  </script>
+  <div class="container">
+    <h2 align="center"><b></b></h2> 
+    <p>
+      <script>
+    var local_data = data;
+    var row_data = '';
+      document.write('<h2><center>'+local_data[2].name + '<br></h2></center>');
+      document.write('Rating: '+local_data[2].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[2].aggregateRating.reviewCount);
+
+    
+    
+  </script>
+  <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    <a href="/login" style="color:white"><center>Reserve Booking!</center></a>
+    </p> 
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row">
+<div class="column">
+	<div class="card">
+  <img id='d'>
+  
+
+ <script>
+    var local_data = data;
+    
+    var img = document.getElementById("d");
+    img.src= local_data[3].image;
+  </script>
+  <div class="container">
+    <h2 align="center"><b></b></h2> 
+    <p>
+      <script>
+    var local_data = data;
+    var row_data = '';
+      document.write('<h2><center>'+local_data[3].name + '<br></h2></center>');
+      document.write('Rating: '+local_data[3].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[3].aggregateRating.reviewCount);
+
+    
+    
+  </script>
+  <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    <a href="/login" style="color:white"><center>Reserve Booking!</center></a>
+    </p> 
+  </div>
+</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+  <img id='e'>
+  
+
+ <script>
+    var local_data = data;
+    
+    var img = document.getElementById("e");
+    img.src= local_data[4].image;
+  </script>
+  <div class="container">
+    <h2 align="center"><b></b></h2> 
+    <p>
+      <script>
+    var local_data = data;
+    var row_data = '';
+      document.write('<h2><center>'+local_data[4].name + '<br></h2></center>');
+      document.write('Rating: '+local_data[4].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[4].aggregateRating.reviewCount);
+
+    
+    
+  </script>
+  <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    <a href="/login" style="color:white"><center>Reserve Booking!</center></a>
+    </p> 
+  </div>
+</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+  <img id='f'>
+  
+
+ <script>
+    var local_data = data;
+    
+    var img = document.getElementById("f");
+    img.src= local_data[5].image;
+  </script>
+  <div class="container">
+    <h2 align="center"><b></b></h2> 
+    <p>
+      <script>
+    var local_data = data;
+    var row_data = '';
+      document.write('<h2><center>'+local_data[5].name + '<br></h2></center>');
+      document.write('Rating: '+local_data[5].aggregateRating.ratingValue + '<br>');
+      document.write('Review Count : '+local_data[5].aggregateRating.reviewCount);
+
+    
+    
+  </script>
+  <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    <a href="/login" style="color:white"><center>Reserve Booking!</center></a>
+    </p> 
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+</html>

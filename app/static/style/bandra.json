@@ -1,0 +1,97 @@
+var data=[{
+    "name": "Sofitel Mumbai BKC",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d2048980-Reviews-Sofitel_Mumbai_BKC-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/be/8e/01/sofitel-mumbai-bkc.jpg",
+    "aggregateRating": {
+        "ratingValue": "5.0",
+        "reviewCount": "6302"
+    },
+    "address": {
+        "Street": "C-57 Bandra Kurla Complex, Bandra East",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400051",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Taj Lands End, Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d304604-Reviews-Taj_Lands_End_Mumbai-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/15/47/c5/d3/pool.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "4550"
+    },
+    "address": {
+        "Street": "Byramji Jeejeebhoy Road Bandstand, Bandra West",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400050",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Trident, Bandra",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1135621-Reviews-Trident_Bandra_Kurla_Mumbai-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/a2/fb/54/street--v15712486.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "4146"
+    },
+    "address": {
+        "Street": "C-56, G Block Bandra Kurla Complex",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400051",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Executive Enclave",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1452050-Reviews-Hotel_Executive_Enclave-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/b6/3d/92/veranda-bandra-modern.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "390"
+    },
+    "address": {
+        "Street": "331 Dr Ambedkar Road Pali Hill Bandra",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400050",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Grand Residency Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1135685-Reviews-Grand_Residency_Hotel_Serviced_Apartments-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/05/14/f3/46/grand-residency-hotel.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "116"
+    },
+    "address": {
+        "Street": "Junction of 24th & 29th Road Bandra West",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400050",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Lucky Hotels and Restaurants",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d2372503-Reviews-Lucky_Hotels_and_Restaurants_Bandra-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/d0/14/7f/lucky-hotels-and-restaurants.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "151"
+    },
+    "address": {
+        "Street": "Junction of S.V. Road & Hill Road, Bandra",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400050",
+        "Country": "India"
+    },
+    "reviews": []
+}]

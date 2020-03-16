@@ -1,0 +1,145 @@
+var data=[{
+    "name": "Taj Mahal Tower, Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d13005940-Reviews-Taj_Mahal_Tower_Mumbai-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/13/7b/57/27/taj-mahal-tower-mumbai.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "760"
+    },
+    "address": {
+        "Street": "Apollo Bunder Colaba",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400 001",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "The Taj Mahal Palace, Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d302179-Reviews-The_Taj_Mahal_Palace_Mumbai-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/19/3f/1f/24/guest-room.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "8327"
+    },
+    "address": {
+        "Street": "Apollo Bunder",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400 001",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Regent Hotel Colaba",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d730061-Reviews-Regent_Hotel_Colaba-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/85/a0/1b/reception.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.5",
+        "reviewCount": "192"
+    },
+    "address": {
+        "Street": "8 Best Road Colaba",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400005",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Residency Fort",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d304617-Reviews-Hotel_Residency_Fort-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/85/a0/8f/restaurant.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "2378"
+    },
+    "address": {
+        "Street": "26 corner of DN Road & Rustom Sidhwa Marg Fort",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400001",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Ascot Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d606365-Reviews-Ascot_Hotel-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/85/9f/e4/room-4.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "342"
+    },
+    "address": {
+        "Street": "38 Garden Road, Colaba",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400039",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "The Gordon House Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d307115-Reviews-The_Gordon_House_Hotel-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/32/a6/7a/all-stir-fry-oriental.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.5",
+        "reviewCount": "356"
+    },
+    "address": {
+        "Street": "5 The Gordon House Hotel Battery Street Apollo Bunder, Colaba, Mumbai",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400059",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Sea Palace Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d655094-Reviews-Sea_Palace_Hotel-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/10/0b/56/61/raaga--v17173962.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.0",
+        "reviewCount": "230"
+    },
+    "address": {
+        "Street": "26 Sea Palace Prem Ramchandani Marg Colaba",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400001",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Godwin",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d309517-Reviews-Hotel_Godwin-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/e2/73/81/hotel-godwin.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.5",
+        "reviewCount": "289"
+    },
+    "address": {
+        "Street": "Garden Road (off Colaba Causeway near Electric House)",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400001",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Garden",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1135687-Reviews-Hotel_Garden-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/33/7f/08/facade.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.5",
+        "reviewCount": "126"
+    },
+    "address": {
+        "Street": "42 Garden Road Colaba",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400001",
+        "Country": "India"
+    },
+    "reviews": []
+}]

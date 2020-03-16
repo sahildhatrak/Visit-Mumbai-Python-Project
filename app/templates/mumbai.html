@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visit Mumbai
+	</title>
+	<style type="text/css">
+		
+		/*body{
+			background-image: url('visitmumbailogo.jpg');
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: 1300pt 800px;
+		}*/
+
+		
+	</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/mumbai.css')}}">
+</head>
+<body>
+<nav>	
+
+<ul>
+		<li><a href="{{ url_for('mumbai') }}">Home</a></li>
+		<li><a href='#'>Things To Do</a>
+		<ul>
+
+				<li><a href="{{ url_for('food') }}">Food & Drink</a></li>
+				<li><a href="{{ url_for('picnic') }}">Picnic</a></li>
+				<li><a href="{{ url_for('shopping') }}">Shopping</a></li>
+				
+</ul>
+</li>
+		<li><a href='#'>Destination</a>
+			<ul>
+				<li><a href="{{ url_for('colaba') }}">Colaba</a></li>
+        <li><a href="{{ url_for('navi') }}">Navi Mumbai</a></li>
+        <li><a href="{{ url_for('bandra') }}">Bandra</a></li>
+        <li><a href="{{ url_for('thane') }}">Thane</a></li>
+        <li><a href="{{ url_for('powai') }}">Powai</a></li>
+			</ul>
+		</li>
+		<li><a href='#'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			<ul>
+				<li><a href="{{ url_for('about_mumbai') }}">About Mumbai</a></li>
+				<li><a href="{{ url_for('history') }}">History</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<h1 align="center" class="class1">Attractions</h1>
+<!-- <br>
+ --><div class="row">
+	<div class="column">
+<div class="card">
+  <img src="../static/style/img/sea_link.jpg" alt="sealink" style="width:100%" align="center"height="250">
+  <div class="container">
+    <h2 align="center"><b>Bandra-Worli Sea Link</b></h2> 
+    <p>Spanning across the arc of Mumbai coastline, this sea link is a civil engineering wonder that connects Bandra in the west of Mumbai to Worli which is in the southern part of the city. </p> 
+  </div>
+</div>
+</div>
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/marine_drive2.jpg" alt="marinedrive" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>Marine Drive</b></h2> 
+    <p>Starting from the north of Nariman Point and ending at the famous Chowpatty beach, the Marine Drive is a 3km long arc shaped road along the sea coast of South Mumbai. The coast lines the Arabian sea and is the best place to watch the sunset in Mumbai. </p> 
+  </div>
+</div>
+</div>
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/gateway.jpg" alt="gateway" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>Gateway of India</b></h2> 
+    <p>One of the most distinguished monument in Mumbai, The Gateway of India was built in 1924. Now it has become a popular tourist hub in the city. Located at Apollo Bunder Waterfront, the monument overlooks the Arabian Sea in the most beautiful way. </p> 
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row">
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/csmt.jpg" alt="csmt" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>Chhatrapati Shivaji Maharaj Terminus</b></h2> 
+    <p>A historic terminal train station recognized as a UNESCO World Heritage Site. Built in the style of Victorian Italianate Gothic Revival architecture, it is one of the busiest railway stations in India. It serves as a terminal for both long-distance and suburban trains. </p> 
+  </div>
+</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/ec.jpg" alt="ec" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>	Elephanta Caves</b></h2> 
+    <p>Located on Elephanta Island (Gharapuri), they are a collection of cave temples dedicated to the Hindu god Shiva. The island consists of Hindu caves along with a few Buddhist stupa mounds and caves. They are a UNESCO World Heritage Site.</p> 
+  </div>
+</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/ha.jpg" alt="ha" style="width:100%" align="center" height="210">
+  <div class="container">
+    <h2 align="center"><b>Haji Ali Dargah</b></h2> 
+    <p>A mosque and dargah (tomb) or the monument of Pir Haji Ali Shah Bukhari located on an islet off the coast of Worli. Being an exquisite example of Indo-Islamic Architecture, it is associated with legends about doomed lovers. It is one of the most recognisable landmarks of Mumbai.</p> 
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row">
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/ew.jpg" alt="ew" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>
+
+Essel World
+
+</b></h2> 
+    <p>
+
+An amusement park located in Gorai, was established in 1989. Essel World along with its counterparts, Water Kingdom are stretched over 64 acres of land. Together, they are recognized as one of the largest Amusement and Water Park.
+
+</p> 
+  </div>
+</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/sg.jpg" alt="sg" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>
+
+Sanjay Gandhi National Park
+
+</b></h2> 
+    <p>
+
+A protected area, it is one of the major national parks existing within a metropolis limit and also one of the most visited parks in the world. The rich flora and fauna of Sanjay Gandhi National Park attracts more than 2 million visitors every year.
+
+</p> 
+  </div>
+</div>
+</div>
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/hg.jpg" alt="hg" style="width:100%" align="center" height="210">
+  <div class="container">
+    <h2 align="center"><b>
+
+Hanging Gardens of Mumbai
+
+</b></h2> 
+    <p>
+
+They are terraced gardens perched at the top of Malabar Hill. They provide sunset views over the Arabian Sea and feature numerous hedges carved into the shapes of animals. When seen from the air, the walkway inside the park (Hanging Gardens Path), spell out the letters PMG (Pherozeshah Mehta Gardens) in cursive.
+
+
+</p> 
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row">
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/ssv.jpg" alt="ssv" style="width:100%" align="center" height="250">
+  <div class="container">
+    <h2 align="center"><b>
+
+	Shri Siddhi Vinayak Ganpati Mandir
+
+</b></h2> 
+    <p>
+
+A Hindu temple dedicated to Lord Shri Ganesh. It is located in Prabhadevi. It is one of the richest temples in the city. The inner roof of the sanctum is plated with gold, and the central statue is of Ganesha. In the periphery, there is a Hanuman temple as well.
+
+</p> 
+  </div>
+</div>
+</div>
+
+
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/mmc.jpg" alt="mmc" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>
+
+Mount Mary Church
+
+</b></h2> 
+    <p>
+
+A Roman Catholic Basilica located in Bandra. The feast of the Blessed Virgin Mary is celebrated here on the first Sunday after 8 September, the birthday of the Virgin Mary. The feast is followed by a week-long celebration known locally as the Bandra Fair and is visited by thousands of people.
+
+</p> 
+  </div>
+</div>
+</div>
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/pl.jpg" alt="pl" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>
+
+Powai Lake
+
+</b></h2> 
+    <p>
+
+An artificial lake, situated in the Powai valley. The city suburb called Powai shares its name with the lake. Housing complexes and plush hotels are developed all around the lake periphery. It is located downstream of the Vihar Lake on the Mithi River. The lake is a tourist attraction.
+
+</p> 
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row">
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/nsc.jpg" alt="nsc" style="width:100%" align="center" height="190">
+  <div class="container">
+    <h2 align="center"><b>
+
+Nehru Science Centre
+
+</b></h2> 
+    <p>
+
+The largest interactive science centre in India, located in Worli. It has a science park with varieties of plants, trees and shrubs. More than 500 hands-on and interactive science exhibits on energy, sound, kinematics, mechanics, transport, etc. are installed in the park. The NSC building, with its unique architecture, houses several permanent science expositions on various theme.
+</p> 
+  </div>
+</div>
+</div>
+
+<div class="column">
+	<div class="card">
+  <img src="../static/style/img/ab.jpg" alt="ab" style="width:100%" align="center" height="230">
+  <div class="container">
+    <h2 align="center"><b>
+
+Aksa Beach
+
+</b></h2> 
+    <p>
+A popular beach and a vacation spot in Aksa village at Malad. It is a popular weekend destination. It is dotted with many private cottages and hotels, some of which are rented out to tourists and visitors. It happens to be one of the cleanest beaches in the city.
+</p> 
+  </div>
+</div>
+</div>
+
+</body>
+
+
+
+
+</html>

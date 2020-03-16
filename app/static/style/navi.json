@@ -1,0 +1,145 @@
+var data=[{
+    "name": "The Park Navi Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d649118-Reviews-The_Park_Navi_Mumbai-Navi_Mumbai_Maharashtra.html",
+    "image": "../static/style/img/park.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "794"
+    },
+    "address": {
+        "Street": "No 1, Sector 10, CBD Belapur",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400614",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Fortune Select Exotica, Navi Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d3317016-Reviews-Fortune_Select_Exotica_Navi_Mumbai-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/6d/bf/66/restaurant.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "596"
+    },
+    "address": {
+        "Street": "Sector 19d Plot 16 Adjacent to Palm Beach Galleria Mall",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400705",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Four Points by Sheraton Navi Mumbai, Vashi",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d1514299-Reviews-Four_Points_by_Sheraton_Navi_Mumbai_Vashi-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/4b/41/89/exterior.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "1153"
+    },
+    "address": {
+        "Street": "Plot 39/1 6 To 15, Sector 30A Vashi",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400701",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Royal Orchid Central Grazia, Vashi, Navi Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d1776925-Reviews-Royal_Orchid_Central_Grazia_Vashi_Navi_Mumbai-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/03/30/26/royal-orchid-central.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "1046"
+    },
+    "address": {
+        "Street": "67 Plot No Plot # 67, L-3, Sector 19, Navi",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400705",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Yogi Executive",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d1402952-Reviews-Hotel_Yogi_Executive-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/59/d9/f8/yogi-executive-4-star.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "488"
+    },
+    "address": {
+        "Street": "Plot No 31/A, Sector 24, opp Mafco Market Vashi",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400705",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Ramada by Wyndham, Navi Mumbai",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d2048998-Reviews-Ramada_by_Wyndham_Navi_Mumbai-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/13/6d/7c/95/welcome-to-the-ramada.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "851"
+    },
+    "address": {
+        "Street": "156 Millennium Business Park Millenium Business Park, Mahape",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400710",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Country Inn & Suites by Radisson",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d3915386-Reviews-Country_Inn_Suites_by_Radisson_Navi_Mumbai-Navi_Mumbai_Maharashtra.html",
+    "image": "../static/style/img/radisson.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "1074"
+    },
+    "address": {
+        "Street": "Plot No X - 4/5 - B, TTC Industrial Area MIDC, Mahape, Shilphata Road",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400701",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Ibis Navi Mumbai Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d2643358-Reviews-Ibis_Navi_Mumbai_Hotel-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/13/6e/0c/2e/exterior-view.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "1131"
+    },
+    "address": {
+        "Street": "D 266 TTC Industrial Estate Turbhe",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400705",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Majestic Court Sarovar Portico",
+    "url": "https://www.<domainname>.in/Hotel_Review-g1532344-d2152341-Reviews-Majestic_Court_Sarovar_Portico-Navi_Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/d9/8b/99/lobby.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "407"
+    },
+    "address": {
+        "Street": "X - 5/2 Mahape Road",
+        "Locality": "Navi Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400701",
+        "Country": "India"
+    },
+    "reviews": []
+}]

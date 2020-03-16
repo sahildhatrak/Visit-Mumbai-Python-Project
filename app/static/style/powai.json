@@ -1,0 +1,97 @@
+var data=[{
+    "name": "Meluha The Fern An Ecotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d2027720-Reviews-Meluha_The_Fern_An_Ecotel-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/d9/85/82/guest-room.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "936"
+    },
+    "address": {
+        "Street": "Central Avenue Hiranandani Gardens Powai",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400076",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Rodas An Ecotel Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d488859-Reviews-Rodas_An_Ecotel_Hotel-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/07/9f/6e/ac/rodas-an-ecotel-hotel.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "282"
+    },
+    "address": {
+        "Street": "Central Avenue Hiranandani Gardens, Powai",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400076",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Renaissance Mumbai Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d299756-Reviews-Renaissance_Mumbai_Convention_Centre_Hotel-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/6e/29/21/junior-suite.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "2843"
+    },
+    "address": {
+        "Street": "#2 & 3B, Near Chinmayanand Ashram Powai",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400087",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "The Beatle",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1597551-Reviews-The_Beatle-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/c3/ec/85/the-beatle.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "176"
+    },
+    "address": {
+        "Street": "Jmj House Orchard Ave",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400076",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "The Caliph",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1719759-Reviews-The_Caliph-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/e5/76/99/deluxe-room.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.5",
+        "reviewCount": "156"
+    },
+    "address": {
+        "Street": "Near Powai Police Station Rambaug, Powai",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400072",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Oritel Service Apartments",
+    "url": "https://www.<domainname>.in/Hotel_Review-g304554-d1135613-Reviews-Oritel_Service_Apartments-Mumbai_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/f7/fa/a5/oritel-service-apartments.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "103"
+    },
+    "address": {
+        "Street": "Next to D-Mart, Chandivali Studio Road Nahar Complex",
+        "Locality": "Mumbai",
+        "Region": "Maharashtra",
+        "Zip": "400072",
+        "Country": "India"
+    },
+    "reviews": []
+}]

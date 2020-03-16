@@ -1,0 +1,97 @@
+var data=[{
+    "name": "Fortune Park LakeCity",
+    "url": "https://www.<domainname>.in/Hotel_Review-g660976-d1812939-Reviews-Fortune_Park_LakeCity-Thane_Thane_District_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/9c/35/9f/fortune-park-lakecity.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "256"
+    },
+    "address": {
+        "Street": "Eastern Express Highway, Near Jupiter Medi - Park Service Road",
+        "Locality": "",
+        "Region": "Maharashtra",
+        "Zip": "400604",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Hotel Tip Top Plaza",
+    "url": "https://www.<domainname>.in/Hotel_Review-g660976-d736081-Reviews-Hotel_Tip_Top_Plaza-Thane_Thane_District_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/14/8e/d1/7c/hotel-tip-top-plaza.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.0",
+        "reviewCount": "115"
+    },
+    "address": {
+        "Street": "L B S Marg, Opposite Raheja Garden LBS Marg",
+        "Locality": "",
+        "Region": "Maharashtra",
+        "Zip": "400602",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "GCC Hotel and Club",
+    "url": "https://www.<domainname>.in/Hotel_Review-g8729935-d1572744-Reviews-GCC_Hotel_and_Club-Mira_Bhayandar_Thane_District_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/07/0a/d6/c9/gcc-hotel-and-club.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "286"
+    },
+    "address": {
+        "Street": "92/1 Mira Bhayandar Mira Bhayander Road Mira Road East.",
+        "Locality": "Mira Bhayandar",
+        "Region": "Maharashtra",
+        "Zip": "401107",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "Saya Grand Club & Spa Resort",
+    "url": "https://www.<domainname>.in/Hotel_Review-g660976-d12343166-Reviews-Saya_Grand_Club_Spa_Resort-Thane_Thane_District_Maharashtra.html",
+    "image": "../static/style/img/saya.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "34"
+    },
+    "address": {
+        "Street": "606, Anjur Village, Mumbai Nashik Eastern Express Highway 606 Anjur Gaon, Surai Phata",
+        "Locality": "",
+        "Region": "Maharashtra",
+        "Zip": "421302",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "GCC Northside Hotel",
+    "url": "https://www.<domainname>.in/Hotel_Review-g8729935-d9771174-Reviews-GCC_Northside_Hotel-Mira_Bhayandar_Thane_District_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0b/62/ca/85/hotel-view.jpg",
+    "aggregateRating": {
+        "ratingValue": "4.5",
+        "reviewCount": "58"
+    },
+    "address": {
+        "Street": "92/1 GCC Club Road Phase 2, Mira Road East",
+        "Locality": "Mira Bhayandar",
+        "Region": "Maharashtra",
+        "Zip": "401107",
+        "Country": "India"
+    },
+    "reviews": []
+},{
+    "name": "The Byke Suraj Plaza",
+    "url": "https://www.<domainname>.in/Hotel_Review-g660976-d8619303-Reviews-The_Byke_Suraj_Plaza-Thane_Thane_District_Maharashtra.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0b/09/d7/7a/the-byke-suraj-plaza.jpg",
+    "aggregateRating": {
+        "ratingValue": "3.5",
+        "reviewCount": "155"
+    },
+    "address": {
+        "Street": "Ghodbunder Road Saibaba Vihar Complex, Anand Nagar",
+        "Locality": "",
+        "Region": "Maharashtra",
+        "Zip": "400615",
+        "Country": "India"
+    },
+    "reviews": []
+}]

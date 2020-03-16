@@ -1,0 +1,96 @@
+{% import 'bootstrap/wtf.html' as wtf %}
+<html>
+<head>
+	<title>Reservation</title>
+	<link rel="stylesheet" type="text/css" href="reserve.css">
+	<style type="text/css">
+		
+		body{
+			background-image: url('reserve2.jpg');
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: 1300pt 1000px;
+			margin-left: 0;
+			margin-right: 0;
+			margin-top: 25pt;
+		}
+		#B {
+			
+			height: 250pt;
+			margin-top: 50pt;
+			margin-left: 200pt;
+			margin-right: 150pt;
+			
+		}
+
+		
+	</style>
+</head>
+<body>
+<section id="A">
+<nav>
+	
+
+<ul>
+		<li><a href='mumbai.html'>Home</a></li>
+		<li><a href='#'>Things To Do</a>
+		<ul>
+
+				<li><a href='#'>Exhibitions</a></li>
+				<li><a href='food.html'>Food & Drink</a></li>
+				<li><a href='#'>Picnic</a></li>
+				<li><a href='shopping.html'>Shopping</a></li>
+				<li><a href='#'>Popular Places</a></li>
+				
+
+</ul>
+</li>
+		<li><a href='#'>Destination</a>
+			<ul>
+				<li><a href='colaba.html'>Colaba</a></li>
+				<li><a href='navi.html'>Navi Mumbai</a></li>
+				<li><a href='bandra.html'>Bandra</a></li>
+				<li><a href='thane.html'>Thane</a></li>
+				<li><a href='#'>Powai</a></li>
+			</ul>
+		</li>
+		<li><a href='#'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			<ul>
+				<li><a href='about_mumbai.html'>About Mumbai</a></li>
+				<li><a href='#'>History</a></li>
+				<li><a href='#'>Basics</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<br><br><br><br><br><br><br>
+</section>
+<section id="B">
+<div class="row">
+<div class="column">
+	<div class="card">
+		
+		{% block content %}
+		<div class="card3">
+
+    		<h1>Enter Details</h1>
+    	</div>
+        
+        <p>
+        	{{ wtf.quick_form(form) }}
+        </p>
+        <p></p>
+    </form>
+{% endblock %}
+	</div>
+</div>
+
+<div class="column">
+	<div class="card2">
+		<br>
+		<h1 class="class3">MAKE YOUR<br>RESERVATION</h1>
+	</div>
+</div>
+</div>
+</section>
